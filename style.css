@@ -1,0 +1,76 @@
+/* Universal selector - applies to all elements */
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #383535;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Class selector - for main content container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(231, 171, 171);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(141, 23, 23, 0.1);
+}
+
+/* ID selector - for the main heading */
+#main-header {
+    color: #0e2c4b;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    border-bottom: 2px solid #db3487;
+    padding-bottom: 10px;
+}
+
+/* Class selector - for featured image */
+.featured-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #3498db;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Class selector - for buttons */
+.btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+/* Class selector - for highlighted text */
+.highlight {
+    background-color: #fffde7;
+    padding: 2px 5px;
+    border-left: 3px solid #fbc02d;
+}
+
+/* Tag selector - for paragraphs */
+p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
